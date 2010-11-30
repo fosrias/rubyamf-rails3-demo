@@ -8,7 +8,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/flex/src/Main.mxml" afterPath="$PROJECT_DIR$/app/flex/src/Main.mxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/rubyamf_plugin/util/action_controller.rb" afterPath="$PROJECT_DIR$/vendor/plugins/rubyamf_plugin/util/action_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/rubyamf_plugin/util/vo_helper.rb" afterPath="$PROJECT_DIR$/vendor/plugins/rubyamf_plugin/util/vo_helper.rb" />
     </list>
     <ignored path="RubyAMF_Rails3.iws" />
@@ -33,15 +32,6 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" showNonProject="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.3/lib/action_view/base.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="229" column="0" selection-start="9820" selection-end="9820" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="rendering.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.3/lib/action_view/render/rendering.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -96,10 +86,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="posts_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="posts_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vo_helper.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vendor/plugins/rubyamf_plugin/util/vo_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="124" column="11" selection-start="6144" selection-end="6144" vertical-scroll-proportion="-0.014150944">
               <folding />
             </state>
           </provider>
@@ -157,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/vendor/plugins/rubyamf_plugin/rails_installer_files/rubyamf_controller.rb" />
         <option value="$PROJECT_DIR$/vendor/plugins/rubyamf_plugin/util/renderers.rb" />
         <option value="$PROJECT_DIR$/../Rails3-amf-to-RubyAMF/vendor/bundle/rails3-amf/lib/rubyamf/configuration.rb" />
@@ -173,6 +171,7 @@
         <option value="$PROJECT_DIR$/vendor/plugins/rubyamf_plugin/init.rb" />
         <option value="$PROJECT_DIR$/vendor/plugins/rubyamf_plugin/util/action_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/posts_controller.rb" />
+        <option value="$PROJECT_DIR$/vendor/plugins/rubyamf_plugin/util/vo_helper.rb" />
       </list>
     </option>
   </component>
@@ -821,7 +820,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1170" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291866" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291866" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -829,7 +828,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24814814" sideWeight="0.6708134" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24814814" sideWeight="0.6708134" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291866" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30239233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -873,13 +872,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Ruby192/lib/ruby/gems/1.9.1/gems/actionpack-3.0.3/lib/action_controller/metal/rendering.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1636" selection-end="1636" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Ruby192/lib/ruby/gems/1.9.1/gems/activesupport-3.0.3/lib/active_support/core_ext/class/inheritable_attributes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="165" column="0" selection-start="7102" selection-end="7102" vertical-scroll-proportion="0.0">
@@ -981,6 +973,13 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/posts_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/plugins/rubyamf_plugin/util/vo_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="124" column="11" selection-start="6144" selection-end="6144" vertical-scroll-proportion="-0.014150944">
           <folding />
         </state>
       </provider>
