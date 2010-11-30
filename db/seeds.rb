@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ :name => 'Chicago' }, { :name => 'Copenhagen' }])
 #   Mayor.create(:name => 'Daley', :city => cities.first)
+
+action = Action.new(:label => 'write', :position => 0)
+action[:code] = 'WRITE'
+action.save
+action = Action.new(:label => 'read', :position => 1)
+action[:code] = 'READ'
+action.save
+action = Action.new( :label => 'send', :position => 2)
+action[:code] = 'SEND'
+action.save
